@@ -1,0 +1,37 @@
+Question 1. What is the Feasibility Study of the SDLC model & why is this important?
+
+Answer: A Feasibility Study in the Software Development Life Cycle (SDLC) is an evaluation of a proposed software project to determine whether it is technically and economically feasible. It is important because it helps determine the viability of a project before investing significant time and resources into it. By identifying potential problems and risks early on, a Feasibility Study can save the project team from wasting time and money on a project that may not be successful. Additionally, it helps the team to prioritize requirements, allocate resources, and develop a realistic project plan.
+
+=================
+Question 2. Write 5 advantages of Agile methodology.
+
+Answer: The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating. 5 advantages of agile methodology are given bellow.
+
+  a. Flexibility and adaptability: Agile methodology allows teams to easily adapt to changing requirements and priorities, making it ideal for projects with rapidly evolving requirements.
+
+  b. Collaboration and communication: Agile methodology emphasizes close collaboration between team members and stakeholders, leading to better communication and a more efficient project.
+
+  c. Faster delivery: Agile methodology prioritizes the delivery of working software over documentation, allowing teams to quickly deliver value to the end-user.
+
+  d. Continuous improvement: Agile methodology encourages continuous improvement and feedback, leading to higher quality software and increased customer satisfaction.
+
+  e. Higher visibility and accountability: Agile methodology provides greater visibility into the project's progress, enabling stakeholders to make informed decisions and holding the team accountable for delivering results.
+
+=================
+Question 3. Write short notes on SDLC model phase.
+
+Answer: SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. The life cycle defines a methodology for improving the quality of software and the overall development process. There are 7 model phases are given bellow.
+
+  a. Requirements Gathering: The first phase of the SDLC, where stakeholders gather and define the requirements for the software project.
+
+  b. Analysis: In this phase, the requirements are analyzed and a high-level design of the solution is created.
+
+  c. Design: Detailed design of the solution is developed in this phase, including the architecture, user interface, and database design.
+
+  d. Development: This is the actual implementation phase, where the software is built based on the design.
+
+  e. Testing: The software is tested in this phase to identify and fix any defects or bugs.
+
+  f. Deployment: The final phase, where the software is deployed and made available to the end-user.
+
+  g. Maintenance: Ongoing support and maintenance of the software to ensure it continues to meet the needs of the end-user.
