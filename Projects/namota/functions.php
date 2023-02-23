@@ -10,9 +10,9 @@ function namota( $num ) {
 
 // namota( 12 );
 
-function getInputData( $num ) {
+function getInputData( $namota ) {
 
-    $inpNum = $_POST['namota'];
+    $inpNum = $_POST[$namota];
 
     namota( $inpNum );
 }

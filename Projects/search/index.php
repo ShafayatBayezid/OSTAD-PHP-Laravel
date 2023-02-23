@@ -18,7 +18,7 @@
     }
     table, tr{
       width: 100%;
-    } 
+    }
     td{
       display: block;
       font-weight: bold;
@@ -57,13 +57,9 @@ sort( $cities, SORT_STRING );
 
 <table>
 <?php
-
-foreach ( $cities as $city ) {
-
-  echo <<<PRINT
- <tr><td>  {$city} </td> </tr>;
-
- PRINT;
+if (isset($_POST['submit'])) {
+  $search_term = $_POST['city'];
+  echo "You searched for: $search_term";
 }
 ?>
 </table>

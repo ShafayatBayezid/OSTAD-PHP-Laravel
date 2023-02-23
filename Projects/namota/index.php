@@ -38,7 +38,6 @@
 
 $value = ( isset( $_POST['namota'] ) && ( is_numeric( $_POST['namota'] ) || !empty( $_POST['namota'] ) ) ) ? $_POST['namota'] : '';
 
-
 ?>
 
 <div class="container">
