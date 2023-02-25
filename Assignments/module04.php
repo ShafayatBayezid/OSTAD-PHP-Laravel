@@ -14,7 +14,6 @@ function sortingArrayByLowLength( $city1, $city2 ) {
             return -1;
         }
     }
-
 }
 
 usort( $cities, "sortingArrayByLowLength" );
