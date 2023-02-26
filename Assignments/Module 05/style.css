@@ -1,0 +1,73 @@
+body{
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  color: #212121;
+}
+.mt-25{
+  margin-top: 25px;
+}
+legend.page-title{
+  font-size: 18px;
+  font-weight: 600;
+  color: #7e12d0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1240px;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .child{
+  width: 100%;
+  padding: 0 10px;
+}
+
+label{
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+label:first-of-type{
+  margin-top: 0;
+}
+input{ 
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 18px;
+  background-color: #eeeeee;
+  outline: none;
+  border: 2px solid #7e12d0;
+  border-radius: 8px;
+}
+button{
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 48px;
+  background-color: #7e12d0;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  box-shadow: inset 1px 1px 10px 3px rgba(67, 0, 106, 0.8);
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  box-shadow: none;
+}
+span{
+  display: block;
+  font-size: 18px;
+  color:#212121;
+}
