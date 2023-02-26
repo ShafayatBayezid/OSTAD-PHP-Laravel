@@ -28,7 +28,6 @@ class Person {
     // public function DisplayEmail() {
     //     echo $this->email;
     // }
-    
 }
 
 $singlePerson = new Person();
