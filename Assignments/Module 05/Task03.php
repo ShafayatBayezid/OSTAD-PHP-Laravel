@@ -12,7 +12,7 @@
 <body>
 
 <?php
-include_once 'functions.php';
+include_once 'controller.php';
 
 ?>
 
@@ -32,18 +32,6 @@ include_once 'functions.php';
     </form>
   </div>
   <div class="child mt-25">
-<?php
-  if ( isset( $_POST['submit'] ) ) {
-      $personName = $_POST['name'];
-      $personEmail = $_POST['email'];
-
-      $singlePerson->setName( $personName );
-      $singlePerson->setEmail( $personEmail );
-  } else {
-      $emptyValue = "No Data Found";
-  }
-?>
-
     <span>Name:
       <strong><?php echo $singlePerson->getName(); ?></strong>
     </span> <br>

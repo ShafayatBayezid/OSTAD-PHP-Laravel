@@ -32,3 +32,14 @@ class Person {
 }
 
 $singlePerson = new Person();
+
+
+if ( isset( $_POST['submit'] ) ) {
+    $personName = $_POST['name'];
+    $personEmail = $_POST['email'];
+
+    $singlePerson->setName( $personName );
+    $singlePerson->setEmail( $personEmail );
+} else {
+    $emptyValue = "No Data Found";
+}
