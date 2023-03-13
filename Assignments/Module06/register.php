@@ -9,8 +9,8 @@ if ( !filter_var( $_POST['email'], FILTER_VALIDATE_EMAIL ) ) {
 }
 
 // Save profile picture to server
-$uploadsDir = 'uploads/';
-$pictureName = date( 'Y-m-d H-i-s' ) . '-' . uniqid() . '-' . $_FILES['picture']['name'];
+$uploadsDir = 'uploads/'; 
+$pictureName =  uniqid() . '-' . $_FILES['picture']['name'];
 $picturePath = $uploadsDir . $pictureName;
 
 if ( !move_uploaded_file( $_FILES['picture']['tmp_name'], $picturePath ) ) {
@@ -19,12 +19,12 @@ if ( !move_uploaded_file( $_FILES['picture']['tmp_name'], $picturePath ) ) {
 
 // Save user data to CSV file
 $usersFile = fopen( 'users.csv', 'a' );
-fputcsv( $usersFile, array( $_POST['name'], $_POST['email'], $pictureName ) );
+fputcsv( $usersFile, array( $_POST['name'], $_POST['email'], $pictureName, date( 'Y-m-d H-i-s' )  ));
 fclose( $usersFile );
 
 // Start new session and set cookie
 session_name( $_POST['name'] );
-session_start(); 
+session_start();
 
 // Redirect to success page
 header( 'Location: success.php' );

@@ -19,13 +19,14 @@
         $usersFile = fopen( 'users.csv', 'r' );
 
         echo '<table>';
-        echo '<tr><th>Profile Picture</th><th>Name</th><th>Email</th></tr>';
+        echo '<tr><th>Profile Picture</th><th>Name</th><th>Email</th><th>Created at</th></tr>';
 
         while (  ( $userData = fgetcsv( $usersFile ) ) !== false ) {
             echo '<tr>';
             echo '<td><img src="uploads/' . $userData[2] . '"></td>';
             echo '<td>' . $userData[0] . '</td>';
             echo '<td>' . $userData[1] . '</td>';
+            echo '<td>' . $userData[3] . '</td>';
             echo '</tr>';
 
         }
