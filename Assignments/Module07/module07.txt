@@ -29,7 +29,7 @@ SELECT AVG(employees.salary) FROM employees;
 
 -- Question d. Write a query to count the number of employees who work in the "Marketing" department.
 
-SELECT COUNT(*) FROM employees JOIN departments ON employees.department_id = departments.id and departments.dept_name = "Marketing";
+SELECT COUNT(*) FROM employees JOIN departments ON employees.department_id = departments.id and departments.name = "Marketing";
 
 -- Explanations: This query will count the number of employees who work in the "Marketing" department by finding the department id of the Marketing department and using it to filter the employees table.
 ------------------------
