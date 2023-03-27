@@ -17,12 +17,9 @@ function login() {
         if ( mysqli_num_rows( $usersData ) > 0 ) {
 
             $row = mysqli_fetch_assoc( $usersData );
-            $firstName = $row['first_name'];
-            $lastName = $row['last_name'];
+            $email = $row['email'];
 
-            var_dump($row);
-
-             header( "Location: welcome.php?name=$firstName.'-'.$lastName" );
+            header( "Location: welcome.php?email=$email" );
             exit();
         } else {
             echo "Invalid login credentials.";

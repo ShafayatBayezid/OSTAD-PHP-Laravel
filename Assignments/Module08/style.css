@@ -77,6 +77,16 @@ span{
   font-weight: 300;
   margin-top: 20px;
 }
+.logged-user{
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.logged-user > p{
+  display: inline;
+  font-weight: 600;
+  color: #7e12d0;
+  text-decoration: none;
+}
 .new-here a{
   font-weight: 600;
   color: #7e12d0;
@@ -114,7 +124,7 @@ table img{
 
 .back-btn{
   width: fit-content;
-  display: block;
+  /* display: block; */
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
