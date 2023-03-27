@@ -4,7 +4,6 @@ include_once 'functions.php';
 if ( isset( $_POST['submit'] ) ) {
 
     registration();
-   
 }
 
 ?>

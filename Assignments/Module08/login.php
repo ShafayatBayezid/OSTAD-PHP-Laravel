@@ -33,7 +33,6 @@ if ( isset( $_POST['login'] ) ) {
         <input type="password" name="password" id="password" ><br><br>
 
         <button type="submit" name="login">Submit</button><br>
-
         
       </form>
       <span class="new-here">New Here? <a href="register.php"> Signup Now!</a></span>

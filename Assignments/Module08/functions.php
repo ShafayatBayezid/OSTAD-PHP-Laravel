@@ -65,7 +65,7 @@ function registration() {
             echo "Error: " . $sql . "<br>" . mysqli_error( $conn );
         }
 
-        mysqli_close( $conn ); // Close the database connection
+        mysqli_close( $conn ); 
 
         $usersFile = fopen( 'csv/users.csv', 'a' );
         fputcsv( $usersFile, array( $firstName, $lastName, $email, $password, $pictureName, $currentDateTime ) );

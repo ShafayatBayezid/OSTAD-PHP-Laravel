@@ -5,7 +5,6 @@ $username = "root";
 $password = "";
 $dbname = "module8_db";
 
-// global $conn;
 $conn = mysqli_connect( $servername, $username, $password, $dbname );
 
 if ( !$conn ) {
