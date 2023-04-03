@@ -26,7 +26,7 @@ if ( isset( $_POST['submit'] ) ) {
     <div class="container mt-5">
         <h1 class="text-center">Contact Us</h1>
         <div class="row d-flex justify-content-center">
-            <div class="col-md-6 col-sm-8">
+            <div class="col-md-6 col-sm-10">
 
             <?php
                 if ( !empty( $warningMsg ) ) {

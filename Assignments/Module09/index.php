@@ -1,10 +1,10 @@
 <?php
-include_once('nav.php')
+include_once 'nav.php'
 ?>
     <section class="container my-5">
         <h2 class="category-title mb-4">Featured Posts</h2>
         <div class="row">
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-4 col-sm-6 mt-3 mx-auto">
                 <div class="card">
                     <img class="card-img-top" src="images/foods.jpg" alt="Featured Post Image">
                     <div class="card-body">
@@ -15,7 +15,7 @@ include_once('nav.php')
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-4 col-sm-6 mt-3 mx-auto">
                 <div class="card">
                     <img class="card-img-top" src="images/fast-food.jpg" alt="Featured Post Image">
                     <div class="card-body">
@@ -26,7 +26,7 @@ include_once('nav.php')
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-4 col-sm-6 mt-3 mx-auto">
                 <div class="card">
                     <img class="card-img-top" src="images/mixed.jpg" alt="Featured Post Image">
                     <div class="card-body">
@@ -40,7 +40,7 @@ include_once('nav.php')
         </div>
     </section>
 
-		
+
 		<?php
-include_once('footer.php')
+include_once 'footer.php'
 ?>
