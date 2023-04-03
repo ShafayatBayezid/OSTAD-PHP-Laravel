@@ -38,7 +38,7 @@ nav a:hover {
   color: #666;
 }
 .card-img-top {
-  height: 230px;
+  min-height: 200px;
   object-fit: cover;
 }
 
@@ -47,7 +47,7 @@ nav a:hover {
   background-color: rgb(127, 182, 255);
   color: #333;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   transition: all 0.3s ease;

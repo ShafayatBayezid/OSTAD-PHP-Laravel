@@ -1,0 +1,23 @@
+The website was designed with a minimalistic and clean layout to provide a user-friendly experience. The website's color scheme is consistent throughout the website, with white as the primary background color and shades of blue for headings, links, and buttons. The website's typography is also consistent throughout the website, with sans-serif fonts used for headings and serif fonts used for the body.
+
+Homepage:
+
+The homepage consists of a header with a logo, navigation menu, and a featured post section. The navigation menu contains links to other pages on the website, including the blog page and the contact page. The featured post section displays the latest blog post's title, image, and excerpt. The section also has a "Read More" button that links to the full post.
+
+Blog page:
+
+The blog page consists of a list of blog posts, with the most recent post at the top. Each blog post displays the title, image, excerpt, and a "Read More" button that links to the full post. The blog page also has a sidebar with a search bar and a list of categories.
+
+Single post page:
+
+The single post page displays the full blog post, including the title, image, content, and author. The page also has social sharing buttons to allow readers to share the post on social media.
+
+Contact page:
+
+The contact page contains a form that allows users to enter their name, email, subject, and message. The form's data is sent to a PHP script that processes the data and displays a success message.
+
+Challenges and Solutions:
+
+One of the challenges faced during the implementation of the website was making it responsive. The solution was to use CSS media queries and Bootstrap framework to adjust the website's layout based on the screen size of the device.
+
+Another challenge was designing the contact page's form and implementing its functionality. The solution was to use PHP to process the form's data and check if it is submitted successfully or not. This was achieved by creating a PHP script that retrieves the form's data, validates it, and shows that the message is sent or not.
