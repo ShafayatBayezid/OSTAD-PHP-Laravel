@@ -4,10 +4,10 @@ include_once 'nav.php';
 if ( isset( $_POST['submit'] ) ) {
 
 // Retrieve user input
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $name = htmlspecialchars( $_POST['name'] );
+    $email = htmlspecialchars( $_POST['email'] );
+    $subject = htmlspecialchars( $_POST['subject'] );
+    $message = htmlspecialchars( $_POST['message'] );
 
     if ( empty( $name ) || empty( $email ) || empty( $subject ) || empty( $message ) ) {
         $warningMsg = "Please fill out all fields.";
@@ -29,39 +29,38 @@ if ( isset( $_POST['submit'] ) ) {
             <div class="col-md-6 col-sm-8">
 
             <?php
-            if ( !empty( $warningMsg )) {
-                ?>
-
+                if ( !empty( $warningMsg ) ) {
+            ?>
                 <div class="alert alert-danger text-center">
                     <?php echo $warningMsg; ?>
                 </div>
 
             <?php
-            }elseif(!empty( $successMsg ) ){
+                } elseif ( !empty( $successMsg ) ) {
             ?>
 
                 <div class="alert alert-success text-center">
                     <?php echo $successMsg; ?>
                 </div>
             <?php
-            }
+                }
             ?>
 
                 <form method="POST" action="contact.php">
                 <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name">Name <span>*</span></label>
                     <input type="text" class="form-control" id="name" name="name" >
                 </div>
                 <div class="form-group">
-                    <label for="email">Email address</label>
+                    <label for="email">Email address <span>*</span></label>
                     <input type="email" class="form-control" id="email" name="email" >
                 </div>
                 <div class="form-group">
-                    <label for="subject">Subject</label>
+                    <label for="subject">Subject <span>*</span></label>
                     <input type="text" class="form-control" id="subject" name="subject" >
                 </div>
                 <div class="form-group">
-                    <label for="message">Message</label>
+                    <label for="message">Message <span>*</span></label>
                     <textarea class="form-control" id="message" name="message" rows="5" ></textarea>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
