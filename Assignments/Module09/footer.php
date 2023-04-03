@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid d-flex justify-content-center copyright py-3">Developed by <a href="http://shafayat.ne" target="_blank"> Shafayat Hossain</a> </div>
+    <div class="container-fluid d-flex justify-content-center copyright py-3">Developed by <a href="http://shafayat.net" target="_blank"> Shafayat Hossain</a> </div>
 </footer>
 
     <!--Bootstrap JS-->
