@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color:rgb(13, 13, 13);
+  text-decoration: none  !important;
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
+.logo img {
+  max-height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #666;
+}
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+}
+
+.read-more {
+  padding: 10px 25px;
+  background-color: rgb(127, 182, 255);
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.3s ease;
+  border-radius: 0px 10px 0px 10px;
+}
+.read-more:hover{
+  background-color: rgb(0, 16, 37);
+  color: #ffffff;
+}
+.social-share-button{
+  display: flex;
+  column-gap: 10px;
+}
+.social-share-button i{
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.social-share-button i:hover{
+  color: rgb(0, 157, 255);
+} 
+.copyright{
+  background-color: #33333332;
+}
+.copyright a{
+  font-weight: 700;
+  color: #000000;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.copyright a:hover{
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+}

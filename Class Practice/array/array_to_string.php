@@ -19,13 +19,13 @@ $students = [
 
 // print_r($students);
 
-// $serializedData = serialize($students);
+$serializedData = serialize($students);
 // echo $serializedData;
 
-// $unserializedData = unserialize($serializedData);
-// echo $unserializedData;
+$unserializedData = unserialize($serializedData);
+print_r($unserializedData);
 
-$jsonEncoded = json_encode($students);
-// echo $jsonEncoded;
-$jsonDecoded = json_decode($jsonEncoded, true); // true means, it will decode as array. without using true, it will decode as json object.
-print_r($jsonDecoded);
+// $jsonEncoded = json_encode($students);
+// // echo $jsonEncoded;
+// $jsonDecoded = json_decode($jsonEncoded, true); // true means, it will decode as array. without using true, it will decode as json object.
+// print_r($jsonDecoded);
