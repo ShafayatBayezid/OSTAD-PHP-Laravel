@@ -1,0 +1,8 @@
+.navbar-brand img{
+  width: 120px;
+}
+
+.banner-wrapper img{
+  max-height: 500px;
+  object-fit: cover;
+}
