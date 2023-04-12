@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Assignments on Module 10</title>
 
-  <!--Bootstrap CSS only -->
+  <!--Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+<!-- font-awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
-  <!--Custom CSS only -->
+  <!-- Custom CSS only   -->
   <link rel="stylesheet" href="style.css">
 
 
@@ -17,7 +19,6 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <!-- <a class="navbar-brand" href="#">Module10</a> -->
     <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="site logo">
     </a>

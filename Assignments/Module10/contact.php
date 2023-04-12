@@ -47,23 +47,23 @@ if ( isset( $_POST['submit'] ) ) {
             ?>
 
                 <form method="POST" action="contact.php">
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label for="name">Name <span>*</span></label>
                     <input type="text" class="form-control" id="name" name="name" >
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label for="email">Email address <span>*</span></label>
                     <input type="email" class="form-control" id="email" name="email" >
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label for="subject">Subject <span>*</span></label>
                     <input type="text" class="form-control" id="subject" name="subject" >
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-1">
                     <label for="message">Message <span>*</span></label>
                     <textarea class="form-control" id="message" name="message" rows="5" ></textarea>
                 </div>
-                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary mt-5">Submit</button>
                 </form>
             </div>
         </div>
