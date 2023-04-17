@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namota</title>
+</head>
+<body>
+  <style>
+    .container{
+      width: 100%;
+      max-width: 800px;
+      margin: 100px auto 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    table, tr{
+      width: 100%;
+    }
+    td{
+      font-weight: bold;
+      padding: 7px 10px;
+    }
+    td.blue{
+      background-color: #e7f6ff;
+      border-bottom: 2px solid #7e12d0;}
+    td.red{
+      background-color: #ff0000;
+      color: #fff;
+      border-bottom: 2px solid #7e12d0;
+    }
+    label{
+      display: block;
+    }
+  </style>
+   
+
+<div class="container">
+  <div class="child">
+    <form action="" method="POST">
+      <label for="namota">একটি সংখা দিন:</label>
+      <input type="number" id="namota" name="namota">
+      <br><br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </div>
+  <div class="child">
+  </div>
+     
+</div>
+
+
+<script>
+var inputNumber = 5;
+function multiplicationTable(num) {
+  for (let i = 1; i <= 10; i++) {
+    const product = num * i;
+    console.log(num + " x " + i + " = " + product);
+  }
+}
+multiplicationTable(4);
+
+</script>
+
+
+</body>
+</html>
