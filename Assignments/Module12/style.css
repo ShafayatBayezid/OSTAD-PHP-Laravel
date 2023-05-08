@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;800;900&display=swap');
+body, *{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.card{
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  /* opacity: ; */
+}
+
+/* Center the form horizontally */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Add some margin to the form elements */
+form input[type="number"],
+form button {
+  margin-bottom: 10px;
+}
+.form-label{
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.bmi-result-area{
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  padding: 15px 0;
+}
+.bmi-result-area span{
+  font-weight: 700;
+  font-size: 24;
+}
+.bmi-result-area.red{
+  background-color: red;
+}
+.bmi-result-area.green{
+  background-color: green;
+}
+
+/* Style the "Calculate BMI" button */
+#calculateBtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+#calculateBtn:hover {
+  background-color: #0062cc;
+}
+
+table, th, td{
+  border: 1px solid #ccc;
+}
+
+
+
+/* -------------- */
+.copyright{
+  background-color: #33333332;
+}
+.copyright a{
+  font-weight: 700;
+  color: #000000;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+.copyright i{
+  color: red;
+  margin: 0 5px;
+}
+.copyright a:hover{
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+}
