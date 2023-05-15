@@ -4,8 +4,8 @@
 ##                       Part 2: Laravel Folder Structure 
 
 ## Student Name	   :  Shafayat Hossain
-Course Name 	     :  Web Development with PHP & Laravel - Batch 1
-Module  		       :  13
+Course Name 	     :  Web Development with PHP & Laravel - Batch 1,
+Module  		       :  13,
 Submision Date  	 :  15-05-2023
 
 			=========================
@@ -14,9 +14,9 @@ Submision Date  	 :  15-05-2023
 
 To install Laravel, I followed the steps below:
 After installing PHP through XAMPP and Composer as recommended in the Laravel documentation. I created a new Laravel project using the following command in the terminal: 
-====
-```composer create-project laravel/laravel module13```
-====
+
+=== ```composer create-project laravel/laravel module13``` ===
+
 where  ‘module13' is the name of my new Laravel project.
 
 After creating the project, I navigated to the project's root directory in the terminal and ran the following command to start the Laravel development server: 
